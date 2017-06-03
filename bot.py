@@ -3,10 +3,10 @@ import subprocess
 from telebot import TeleBot, types
 import redis
 
-token = ""
+token = "365684845:AAEVDldi4ZjcB8Ij1oOZpc433U9IUC29rzQ"
 bot = TeleBot(token)
 admins = [
-    205746695
+    274807882
 ] # Admins
 db = redis.Redis("localhost", decode_responses=True)
 ''
